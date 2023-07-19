@@ -162,8 +162,12 @@ a {
 }
 .clients .images img {
     padding: 26px 41px;
+    border-radius: 12px;
 }
-
+.clients .images img:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
 /* Guides */
 .guides {
     margin-bottom: 41px;
